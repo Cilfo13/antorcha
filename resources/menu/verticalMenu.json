@@ -1,0 +1,34 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "pages-home"
+    },
+    {
+      "url": "/page-2",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "name": "Page 2",
+      "slug": "pages-page-2"
+    },
+    {
+      "url": "/ganar",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "name": "Ganar",
+      "slug": "pages-ganar",
+      "submenu": [
+        {
+          "url": "/ganar-añadir",
+          "name": "Añadir",
+          "slug": "pages-ganar-añadir"
+        },
+        {
+          "url": "/",
+          "name": "Personas",
+          "slug": "pages-ganar-personas"
+        }
+      ]
+    }
+  ]
+}
