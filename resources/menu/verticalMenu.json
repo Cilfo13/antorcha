@@ -7,10 +7,10 @@
       "slug": "pages-home"
     },
     {
-      "url": "/page-2",
+      "url": "/admin",
       "icon": "menu-icon tf-icons bx bx-file",
-      "name": "Page 2",
-      "slug": "pages-page-2"
+      "name": "Admin",
+      "slug": "pages-admin"
     },
     {
       "url": "/ganar",

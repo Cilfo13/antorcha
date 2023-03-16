@@ -18,6 +18,6 @@ Route::middleware([
     $controller_path = 'App\Http\Controllers';
 
     Route::get('/', $controller_path . '\pages\HomePage@index')->name('pages-home');
-    Route::get('/page-2', $controller_path . '\pages\Page2@index')->name('pages-page-2');
+    Route::get('/admin', $controller_path . '\pages\Admin@index')->name('pages-admin');
     Route::get('/ganar-añadir', $controller_path . '\pages\Ganar@añadir')->name('pages-ganar-añadir'); 
 });

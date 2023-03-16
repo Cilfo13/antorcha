@@ -4,8 +4,8 @@ $configData = Helper::appClasses();
 
 @extends('layouts/layoutMaster')
 
-@section('title', 'Page 2')
+@section('title', 'Admin')
 
 @section('content')
-<h4>Page 2</h4>
+<h4>Admin</h4>
 @endsection
